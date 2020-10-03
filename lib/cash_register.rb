@@ -21,5 +21,6 @@ class CashRegister
       @@all << item
       @total += price
   end
+end
 
 end
