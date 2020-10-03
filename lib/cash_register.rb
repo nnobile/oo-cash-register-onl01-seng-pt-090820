@@ -4,7 +4,6 @@ end
 
 def initialize
   @total = 0
-  employee_discount = self.new
 end
 
 employee_discount = CashRegister.new
