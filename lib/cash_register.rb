@@ -1,5 +1,5 @@
 class CashRegister
-  attr_reader :discount
+  attr_reader :discount :items
   attr_accessor :total
 
   def initialize(discount = 20) # this is an optional argument.
@@ -18,5 +18,10 @@ class CashRegister
     else
       "There is no discount to apply."
   end
+
+  def items
+
+
+
 end
 end
