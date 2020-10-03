@@ -4,5 +4,5 @@ end
 
 def initialize
   @total = 0
-  cash_register_with_discount = self.new
+  employee_discount = self.new
 end
