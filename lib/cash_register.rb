@@ -8,3 +8,7 @@ end
 def self.discount(total)
   total.discount = @total
 end
+
+employee_discount = CashRegister.new
+employee_discount.name = "Amy Blake"
+amy.salary = 50000
