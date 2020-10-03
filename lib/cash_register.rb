@@ -8,6 +8,4 @@ end
 def 
 end
 
-employee_discount = CashRegister.new
-employee_discount.name = "Amy Blake"
-amy.salary = 50000
+employee_discount = CashRegister.new(20)
