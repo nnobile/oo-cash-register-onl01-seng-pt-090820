@@ -5,9 +5,11 @@ def initialize
   @total = 0
   if employee_discount = true
     return employee_discount
-end
+  else
+    @total
+  end
 
 def self.cash_register_with_discount
-  emplyee_discount = @total * .8
+  employee_discount = @total * .8
   return employee_discount
 end
