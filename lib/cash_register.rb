@@ -7,4 +7,5 @@ def initialize
 end
 end
 
-employee_discount = CashRegister.new(20)
+employee = CashRegister.new(20)
+employee.discount
