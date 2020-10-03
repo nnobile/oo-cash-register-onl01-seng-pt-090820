@@ -3,9 +3,5 @@ class CashRegister
 
 def initialize
   @total = 0
-  employee_discount
+  @employee_discount = CashRegister.new(20)
 end
-end
-
-employee = CashRegister.new(20)
-employee.discount
