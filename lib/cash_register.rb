@@ -2,7 +2,7 @@ class CashRegister
   attr_reader :discount
   attr_accessor :total
 
-  def initialize(discount = 20) # this is an optional argument. 
+  def initialize(discount = 20) # this is an optional argument.
     @total = 0
     @discount = discount
   end
@@ -12,7 +12,7 @@ class CashRegister
   end
 
   def apply_discount
-    discounted_total = @discount * @total
+    @total = total
   end
 
 
