@@ -16,10 +16,7 @@ class CashRegister
     @total
   end
 
-  def add_item
-    add_item.each do |item, price|
-      @@all << item
-      @total += price
+
   end
 end
 
