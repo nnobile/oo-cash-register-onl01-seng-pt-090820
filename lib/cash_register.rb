@@ -3,11 +3,7 @@ class CashRegister
 
 def initialize
   @total = 0
-  if employee_discount = true
-    return employee_discount
-  else
-    @total
-  end
+end
 
 def self.cash_register_with_discount
   employee_discount = @total
