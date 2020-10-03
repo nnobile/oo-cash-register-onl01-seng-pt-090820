@@ -7,6 +7,6 @@ def initialize
 end
 
 def self.cash_register_with_discount
-  discount = 
+  discount =
 
 end
