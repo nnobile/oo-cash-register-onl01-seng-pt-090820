@@ -13,6 +13,5 @@ def self.cash_register_with_discount
   employee_discount = @total
   return employee_discount
 end
-
-
+end
 end
