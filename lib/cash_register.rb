@@ -5,8 +5,7 @@ def initialize
   @total = 0
 end
 
-def self.discount(total)
-  total.discount = @total
+def 
 end
 
 employee_discount = CashRegister.new
