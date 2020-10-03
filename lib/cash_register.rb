@@ -8,4 +8,3 @@ end
 def self.discount(total)
   total.discount = @total
 end
-
