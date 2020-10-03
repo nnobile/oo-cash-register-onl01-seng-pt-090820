@@ -5,3 +5,4 @@ def initialize
   @total = 0
   @employee_discount = CashRegister.new(20)
 end
+end
