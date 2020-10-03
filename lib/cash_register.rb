@@ -12,6 +12,7 @@ class CashRegister
     quantity.times do
       @items << title
     end
+    @last_total = @total
     @total += price * quantity
   end
 
@@ -22,6 +23,8 @@ class CashRegister
     else
       "There is no discount to apply."
   end
+
+  def void_last_transaction
 
 
 
